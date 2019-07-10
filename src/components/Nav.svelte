@@ -70,15 +70,6 @@
     </li>
     <li>
       <a
-        class={segment === 'resume' ? 'selected' : ''}
-        href="pdf/resume.pdf"
-        target="_blank"
-        rel="noopener">
-        resume 🔗
-      </a>
-    </li>
-    <li>
-      <a
         class={segment === 'linkedin' ? 'selected' : ''}
         href="https://linkedin.com/in/willxu1234"
         target="_blank"
