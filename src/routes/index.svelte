@@ -11,7 +11,7 @@
     text-align: right;
     margin: 0.5em 0.2em;
     /* font-size: 7em; */
-    font-size: 9vw;
+    font-size: 5vw;
     color: white;
   }
 
@@ -23,7 +23,7 @@
    */
   div.display-sub {
     margin: 0 0.2em 0.5em 0.2em;
-    font-size: 3vw;
+    font-size: 2vw;
     padding: 1em 0.4em;
     border: 0.5em black solid;
   }
@@ -50,13 +50,13 @@
 
 <div class="col-12 hero">
   <h1 class="col-5 display">
-    <strong>will xu:</strong>
+    will xu:
     <div class="block"></div>
   </h1>
   <div class="col-5 display-sub">
-    <h4 class="primary">UCSD 4th Year, <strong>Computer Science;</strong></h4>
+    <h4 class="primary">UCSD 4th Year, Computer Science;</h4>
     <h4 class="alt">Interested in Software Development;</h4>
-    <h4 class="primary">Likes <strong>Autonomous</strong> Vehicles;</h4>
-    <h4 class="alt">& Likes <strong>Helping People</strong> Through Code.</h4>
+    <h4 class="primary">Likes Autonomous Vehicles;</h4>
+    <h4 class="alt">& Likes Helping People Through Code.</h4>
   </div>
 </div>

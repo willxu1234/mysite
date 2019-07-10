@@ -1,16 +1,18 @@
 <script>
     export let backgroundColor;
-
+    export let color;
 </script>
 
 <style>
     .wrapper {
-        max-width: 56em;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
 </style>
 
-<div class="wrapper" style="background-color: {backgroundColor};">
-    <slot id="left" name="left"></slot>
-    <slot id="right" name="right"></slot>
+<div class="wrapper" style="background-color: {backgroundColor}; color: {color}; border-top: 5px {color} solid;">
+    <slot id="left" class="col-5" name="left"></slot>
+    <slot id="right" class="col-5" name="right"></slot>
 </div>

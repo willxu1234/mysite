@@ -9,6 +9,7 @@
 		position: relative;
 		padding: 2em;
 		margin: 0 auto;
+		max-width: 56em;
 		box-sizing: border-box;
 	}
 </style>
