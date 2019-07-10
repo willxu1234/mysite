@@ -4,11 +4,11 @@
 
 <style>
   .left {
-    margin-right: 2em;
+    margin-right: 2vw;
     width: 100%;
   }
   .right {
-    margin-left: 2em;
+    margin-left: 2vw;
     width: 100%;
   }
 

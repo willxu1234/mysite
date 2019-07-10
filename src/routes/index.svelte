@@ -10,8 +10,8 @@
   h1.display {
     text-align: right;
     margin: 0.5em 0.2em;
-    /* font-size: 7em; */
-    font-size: 5vw;
+    font-size: calc(0.2vw + 2.5em);
+    /* font-size: 5vw; */
     color: white;
   }
 
@@ -23,7 +23,7 @@
    */
   div.display-sub {
     margin: 0 0.2em 0.5em 0.2em;
-    font-size: 2vw;
+    font-size: calc(0.2vw + 1.4em);
     padding: 1em 0.4em;
     border: 0.5em black solid;
   }
