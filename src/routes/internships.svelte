@@ -18,12 +18,10 @@
 
   img.border {
     border: 2px black solid;
-    margin-bottom: -0.3em;
   }
 
   img.border {
     border: 2px white solid;
-    margin-bottom: -0.3em;
   }
 </style>
 
@@ -36,7 +34,9 @@
 <Card color="black">
   <span class="left" slot="left">
     <h1>
-      <img src="icons/msft.png" alt="" width="50em" class="border" />
+      <div>
+        <img src="icons/msft.png" alt="" width="50em" class="border" />
+      </div>
       Microsoft
       <span class="location">- Cambridge, MA</span>
     </h1>
@@ -66,7 +66,9 @@
 <Card color="white">
   <span class="left" slot="left">
     <h1>
-      <img src="icons/nuro.png" alt="" width="50em" class="border" />
+      <div>
+        <img src="icons/nuro.png" alt="" width="50em" class="border" />
+      </div>
       Nuro
       <span class="location">- Mountain View, CA</span>
     </h1>
@@ -102,7 +104,9 @@
 <Card color="black">
   <span class="left" slot="left">
     <h1>
-      <img src="icons/velo.png" alt="" width="50em" class="white-border" />
+      <div>
+        <img src="icons/velo.png" alt="" width="50em" class="white-border" />
+      </div>
       Velodyne
       <span class="location">- San Jose, CA</span>
     </h1>
