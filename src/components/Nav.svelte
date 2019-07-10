@@ -4,7 +4,8 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		background-color: white;
+		border-bottom: 10px solid black;
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -35,10 +36,10 @@
 		position: absolute;
 		content: '';
 		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
+		height: 4px;
+		background-color: rgb(248, 80, 61);
 		display: block;
-		bottom: -1px;
+		bottom: -2px;
 	}
 
 	a {
@@ -51,10 +52,10 @@
 <nav>
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a></li>
+		<li><a class='{segment === "projects" ? "selected" : ""}' href='projects'>projects</a></li>
+		<li><a class='{segment === "internships" ? "selected" : ""}' href='internships'>internships</a></li>
+		<li><a class='{segment === "resume" ? "selected" : ""}' href='resume'>resume</a></li>
+		<li><a class='{segment === "linkedin" ? "selected" : ""}' href='linkedin'>linkedin</a></li>
+		<li><a class='{segment === "contactme" ? "selected" : ""}' href='contactme'>contact</a></li>
 	</ul>
 </nav>
