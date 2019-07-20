@@ -46,11 +46,15 @@
     <ul>
       <li>
         Built an easily pluggable, native web component library using vanilla
-        JavaScript, HTML, and CSS
+        JavaScript, HTML, and CSS.
       </li>
       <li>
         Created a script allowing code coverage utilities to accurately parse
-        test files for comprehensiveness
+        test files for comprehensiveness.
+      </li>
+      <li>
+        Mimicked a real life work setting by operating in a team of ten, while
+        satisfying the demands of an investor.
       </li>
       <li>
         <a href="https://github.com/ucsd-cse112/team13" target="_blank">
