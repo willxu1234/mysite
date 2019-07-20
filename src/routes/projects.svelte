@@ -37,9 +37,9 @@
 
 <Card duration={400}>
   <span class="left" slot="left">
-    <h1 class="project">Native Web Components</h1>
+    <h2 class="project">Native Web Components</h2>
     <h4 class="date">
-      <em>March 2019 - June 2019</em>
+      <em>Mar 2019 - Jun 2019</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -66,9 +66,9 @@
 </Card>
 <Card duration={800}>
   <span class="left" slot="left">
-    <h1 class="project">Waverider Rideshare App</h1>
+    <h2 class="project">Waverider Rideshare App</h2>
     <h4 class="date">
-      <em>September 2018 - December 2018</em>
+      <em>Sep 2018 - Dec 2018</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -94,9 +94,9 @@
 </Card>
 <Card duration={1200}>
   <span class="left" slot="left">
-    <h1 class="project">Theta Tau LED Speakers</h1>
+    <h2 class="project">Theta Tau LED Speakers</h2>
     <h4 class="date">
-      <em>September 2018 - December 2018</em>
+      <em>Sep 2018 - Dec 2018</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -135,9 +135,9 @@
 </Card>
 <Card duration={1600}>
   <span class="left" slot="left">
-    <h1 class="project">HQ Trivia Video Analysis Script</h1>
+    <h2 class="project">HQ Trivia Video Analysis Script</h2>
     <h4 class="date">
-      <em>April 2018 - June 2018</em>
+      <em>Apr 2018 - Jun 2018</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -164,9 +164,9 @@
 </Card>
 <Card duration={2000}>
   <span class="left" slot="left">
-    <h1 class="project">Self-driving RC Car</h1>
+    <h2 class="project">Self-driving RC Car</h2>
     <h4 class="date">
-      <em>April 2018 - June 2018</em>
+      <em>Apr 2018 - Jun 2018</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -199,9 +199,9 @@
 </Card>
 <Card duration={2400}>
   <span class="left" slot="left">
-    <h1 class="project">Alpha Phi Omega Website</h1>
+    <h2 class="project">Alpha Phi Omega Website</h2>
     <h4 class="date">
-      <em>December 2016 - June 2017</em>
+      <em>Dec 2016 - Jun 2017</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -222,9 +222,9 @@
 </Card>
 <Card duration={2800}>
   <span class="left" slot="left">
-    <h1 class="project">ECE 5 Line-Following Car</h1>
+    <h2 class="project">ECE 5 Line-Following Car</h2>
     <h4 class="date">
-      <em>November 2016 - December 2016</em>
+      <em>Nov 2016 - Dec 2016</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -237,9 +237,9 @@
 </Card>
 <Card duration={3200}>
   <span class="left" slot="left">
-    <h1 class="project">Web-based Motion Sensor</h1>
+    <h2 class="project">Web-based Motion Sensor</h2>
     <h4 class="date">
-      <em>September 2016 - December 2016</em>
+      <em>Sep 2016 - Dec 2016</em>
     </h4>
   </span>
   <span class="right" slot="right">

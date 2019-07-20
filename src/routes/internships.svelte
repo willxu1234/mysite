@@ -15,7 +15,8 @@
   }
 
   span.location {
-    font-size: 0.4em;
+    color: rgb(180, 180, 180);
+    font-size: 0.7em;
   }
 
   img.white-border {
@@ -25,6 +26,7 @@
 
   .company {
     margin-bottom: 0.1em;
+    margin-top: 0.5em;
   }
 
   .date {
@@ -42,15 +44,15 @@
 
 <Card duration={600}>
   <span class="left" slot="left">
-    <h1 class="company">
-      <div>
-        <img src="icons/msft.png" alt="" width="50em" class="white-border" />
-      </div>
+    <div>
+      <img src="icons/msft.png" alt="" width="50em" class="white-border" />
+    </div>
+    <h2 class="company">
       Microsoft
       <span class="location">- Cambridge, MA</span>
-    </h1>
+    </h2>
     <h4 class="date">
-      <em>June 2019 - September 2019</em>
+      <em>Jun 2019 - Sep 2019</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -74,15 +76,15 @@
 
 <Card duration={1200}>
   <span class="left" slot="left">
-    <h1 class="company">
-      <div>
-        <img src="icons/nuro.png" alt="" width="50em" class="white-border" />
-      </div>
+    <div>
+      <img src="icons/nuro.png" alt="" width="50em" class="white-border" />
+    </div>
+    <h2 class="company">
       Nuro
       <span class="location">- Mountain View, CA</span>
-    </h1>
+    </h2>
     <h4 class="date">
-      <em>June 2018 - September 2018</em>
+      <em>Jun 2018 - Sep 2018</em>
     </h4>
   </span>
   <span class="right" slot="right">
@@ -112,18 +114,18 @@
 </Card>
 <Card duration={1800}>
   <span class="left" slot="left">
-    <h1 class="company">
-      <div>
-        <img src="icons/velo.png" alt="" width="50em" class="white-border" />
-      </div>
+    <div>
+      <img src="icons/velo.png" alt="" width="50em" class="white-border" />
+    </div>
+    <h2 class="company">
       Velodyne
       <span class="location">- San Jose, CA</span>
-    </h1>
+    </h2>
     <h4 class="date">
-      <em>June 2016 - September 2016</em>
+      <em>Jun 2016 - Sep 2016</em>
     </h4>
     <h4 class="date">
-      <em>June 2017 - September 2017</em>
+      <em>Jun 2017 - Sep 2017</em>
     </h4>
   </span>
   <span class="right" slot="right">
