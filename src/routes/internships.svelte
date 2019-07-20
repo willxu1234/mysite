@@ -6,22 +6,21 @@
   .left {
     margin-right: 2em;
     width: 100%;
+    color: white;
   }
   .right {
     margin-left: 2em;
     width: 100%;
+    color: white;
   }
 
   span.location {
     font-size: 0.6em;
   }
 
-  img.border {
-    border: 2px black solid;
-  }
-
-  img.border {
+  img.white-border {
     border: 2px white solid;
+    padding: 4px;
   }
 </style>
 
@@ -31,11 +30,11 @@
 
 <h1>Internships</h1>
 
-<Card color="black">
+<Card duration={600}>
   <span class="left" slot="left">
     <h1>
       <div>
-        <img src="icons/msft.png" alt="" width="50em" class="border" />
+        <img src="icons/msft.png" alt="" width="50em" class="white-border" />
       </div>
       Microsoft
       <span class="location">- Cambridge, MA</span>
@@ -63,11 +62,11 @@
   </span>
 </Card>
 
-<Card color="white">
+<Card duration={1200}>
   <span class="left" slot="left">
     <h1>
       <div>
-        <img src="icons/nuro.png" alt="" width="50em" class="border" />
+        <img src="icons/nuro.png" alt="" width="50em" class="white-border" />
       </div>
       Nuro
       <span class="location">- Mountain View, CA</span>
@@ -101,7 +100,7 @@
     </ul>
   </span>
 </Card>
-<Card color="black">
+<Card duration={1800}>
   <span class="left" slot="left">
     <h1>
       <div>

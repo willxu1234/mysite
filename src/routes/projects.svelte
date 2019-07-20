@@ -6,14 +6,16 @@
   .left {
     margin-right: 2vw;
     width: 100%;
+    color: white;
   }
   .right {
     margin-left: 2vw;
     width: 100%;
+    color: white;
   }
 
   .right ul li a {
-    color: rgb(245, 245, 131);
+    color: rgb(0, 204, 255);
   }
 </style>
 
@@ -23,7 +25,7 @@
 
 <h1>Projects</h1>
 
-<Card color="white">
+<Card duration={400}>
   <span class="left" slot="left">
     <h1>Native Web Components</h1>
     <h4>
@@ -48,7 +50,7 @@
     </ul>
   </span>
 </Card>
-<Card color="black">
+<Card duration={800}>
   <span class="left" slot="left">
     <h1>Waverider Rideshare App</h1>
     <h4>
@@ -76,7 +78,7 @@
     </ul>
   </span>
 </Card>
-<Card color="white">
+<Card duration={1200}>
   <span class="left" slot="left">
     <h1>Theta Tau LED Speakers</h1>
     <h4>
@@ -117,7 +119,7 @@
     </ul>
   </span>
 </Card>
-<Card color="black">
+<Card duration={1600}>
   <span class="left" slot="left">
     <h1>HQ Trivia Video Analysis Script</h1>
     <h4>
@@ -146,7 +148,7 @@
     </ul>
   </span>
 </Card>
-<Card color="white">
+<Card duration={2000}>
   <span class="left" slot="left">
     <h1>Self-driving RC Car</h1>
     <h4>
@@ -181,7 +183,7 @@
     </ul>
   </span>
 </Card>
-<Card color="black">
+<Card duration={2400}>
   <span class="left" slot="left">
     <h1>Alpha Phi Omega Website</h1>
     <h4>
@@ -204,7 +206,7 @@
     </ul>
   </span>
 </Card>
-<Card color="white">
+<Card duration={2800}>
   <span class="left" slot="left">
     <h1>ECE 5 Line-Following Car</h1>
     <h4>
@@ -219,7 +221,7 @@
     </ul>
   </span>
 </Card>
-<Card color="black">
+<Card duration={3200}>
   <span class="left" slot="left">
     <h1>Web-based Motion Sensor</h1>
     <h4>

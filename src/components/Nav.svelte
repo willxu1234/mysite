@@ -4,10 +4,11 @@
 
 <style>
   nav {
-    background-color: white;
-    border-bottom: 10px solid black;
+    background-color: rgb(25, 25, 25);
+    border-bottom: 1px solid rgb(0, 204, 255);
     font-weight: 300;
     padding: 0 1em;
+    color: white;
   }
 
   ul {
@@ -28,7 +29,7 @@
   }
 
   li:hover {
-    color: rgb(248, 80, 61);
+    color: rgb(0, 204, 255);
   }
 
   .selected {
@@ -40,8 +41,8 @@
     position: absolute;
     content: "";
     width: calc(100% - 1em);
-    height: 5px;
-    background-color: rgb(248, 80, 61);
+    height: 1px;
+    background-color: white;
     display: block;
     bottom: 4px;
   }
@@ -74,7 +75,7 @@
         href="https://linkedin.com/in/willxu1234"
         target="_blank"
         rel="noopener">
-        linkedin 🔗
+        linkedin
       </a>
     </li>
     <li>
@@ -83,7 +84,7 @@
         href="https://github.com/willxu1234"
         target="_blank"
         rel="noopener">
-        github 🔗
+        github
       </a>
     </li>
   </ul>

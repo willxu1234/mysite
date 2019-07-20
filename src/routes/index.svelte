@@ -1,3 +1,7 @@
+<script>
+  import { fade, fly } from 'svelte/transition';
+</script>
+
 <style>
   div.hero {
     height: 80vh;
@@ -25,7 +29,7 @@
     margin: 0 0.2em 0.5em 0.2em;
     font-size: calc(0.2vw + 1.4em);
     padding: 1em 0.4em;
-    border: 0.5em black solid;
+    border: 0.2em rgb(0, 204, 255) solid;
   }
 
   .primary {
@@ -33,13 +37,13 @@
   }
 
   .alt {
-    color: black;
+    color: rgb(180, 180, 180);
   }
 
   div.block {
-    background-color: black;
+    background-color: rgb(0, 204, 255);
     content: '';
-    height: 0.6em;
+    height: 0.1em;
     width: 100%;
   }
 </style>
@@ -49,11 +53,11 @@
 </svelte:head>
 
 <div class="col-12 hero">
-  <h1 class="col-5 display">
-    will xu:
+  <h1 in:fade class="col-5 display">
+    hi, i'm will xu:
     <div class="block"></div>
   </h1>
-  <div class="col-5 display-sub">
+  <div in:fly="{{y: -20, duration: 500}}"class="col-5 display-sub">
     <h4 class="primary">UCSD 4th Year, Computer Science;</h4>
     <h4 class="alt">Interested in Software Development;</h4>
     <h4 class="primary">Likes Autonomous Vehicles;</h4>
