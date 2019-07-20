@@ -58,15 +58,15 @@
       <li>
         Changed absolute timestamps to friendly timestamps in comments on Office
         for web, iOS, Android, and Win32 using TypeScript/React/Redux build on
-        top of a C# application
+        top of a C# application.
       </li>
       <li>
         Designed a detailed spec, complete with design requirements and metrics
-        to measure success
+        to measure success.
       </li>
       <li>
         Designed a detailed spec, complete with design requirements and metrics
-        to measure success
+        to measure success.
       </li>
     </ul>
   </span>
