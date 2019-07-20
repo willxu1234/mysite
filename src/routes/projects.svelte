@@ -4,18 +4,28 @@
 
 <style>
   .left {
-    margin-right: 2vw;
+    /* margin-right: 2vw; */
     width: 100%;
     color: white;
   }
   .right {
-    margin-left: 2vw;
+    /* margin-left: 2vw; */
     width: 100%;
     color: white;
   }
 
   .right ul li a {
     color: rgb(0, 204, 255);
+  }
+
+  .project {
+    margin-bottom: 0.1em;
+  }
+
+  .date {
+    margin-top: 0;
+    color: rgb(180, 180, 180);
+    font-size: 0.8em;
   }
 </style>
 
@@ -27,8 +37,8 @@
 
 <Card duration={400}>
   <span class="left" slot="left">
-    <h1>Native Web Components</h1>
-    <h4>
+    <h1 class="project">Native Web Components</h1>
+    <h4 class="date">
       <em>March 2019 - June 2019</em>
     </h4>
   </span>
@@ -52,8 +62,8 @@
 </Card>
 <Card duration={800}>
   <span class="left" slot="left">
-    <h1>Waverider Rideshare App</h1>
-    <h4>
+    <h1 class="project">Waverider Rideshare App</h1>
+    <h4 class="date">
       <em>September 2018 - December 2018</em>
     </h4>
   </span>
@@ -80,8 +90,8 @@
 </Card>
 <Card duration={1200}>
   <span class="left" slot="left">
-    <h1>Theta Tau LED Speakers</h1>
-    <h4>
+    <h1 class="project">Theta Tau LED Speakers</h1>
+    <h4 class="date">
       <em>September 2018 - December 2018</em>
     </h4>
   </span>
@@ -121,8 +131,8 @@
 </Card>
 <Card duration={1600}>
   <span class="left" slot="left">
-    <h1>HQ Trivia Video Analysis Script</h1>
-    <h4>
+    <h1 class="project">HQ Trivia Video Analysis Script</h1>
+    <h4 class="date">
       <em>April 2018 - June 2018</em>
     </h4>
   </span>
@@ -150,8 +160,8 @@
 </Card>
 <Card duration={2000}>
   <span class="left" slot="left">
-    <h1>Self-driving RC Car</h1>
-    <h4>
+    <h1 class="project">Self-driving RC Car</h1>
+    <h4 class="date">
       <em>April 2018 - June 2018</em>
     </h4>
   </span>
@@ -185,8 +195,8 @@
 </Card>
 <Card duration={2400}>
   <span class="left" slot="left">
-    <h1>Alpha Phi Omega Website</h1>
-    <h4>
+    <h1 class="project">Alpha Phi Omega Website</h1>
+    <h4 class="date">
       <em>December 2016 - June 2017</em>
     </h4>
   </span>
@@ -208,8 +218,8 @@
 </Card>
 <Card duration={2800}>
   <span class="left" slot="left">
-    <h1>ECE 5 Line-Following Car</h1>
-    <h4>
+    <h1 class="project">ECE 5 Line-Following Car</h1>
+    <h4 class="date">
       <em>November 2016 - December 2016</em>
     </h4>
   </span>
@@ -223,8 +233,8 @@
 </Card>
 <Card duration={3200}>
   <span class="left" slot="left">
-    <h1>Web-based Motion Sensor</h1>
-    <h4>
+    <h1 class="project">Web-based Motion Sensor</h1>
+    <h4 class="date">
       <em>September 2016 - December 2016</em>
     </h4>
   </span>
