@@ -64,9 +64,9 @@
       <div class="block"></div>
     </h1>
     <div in:fly="{{y: -50, duration: 800}}"class="col-5 display-sub">
-      <h4 class="primary">UCSD 4th Year, Computer Science;</h4>
-      <h4 class="alt">Interested in Software Development;</h4>
-      <h4 class="primary">Likes Autonomous Vehicles;</h4>
+      <h4 class="primary">UCSD 4th Year, Computer Science</h4>
+      <h4 class="alt">Interested in Software Development</h4>
+      <h4 class="primary">Likes Autonomous Vehicles</h4>
       <h4 class="alt">& Likes Helping People Through Code.</h4>
     </div>
   </div>
