@@ -66,10 +66,6 @@
         Designed a detailed spec, complete with design requirements and metrics
         to measure success.
       </li>
-      <li>
-        Designed a detailed spec, complete with design requirements and metrics
-        to measure success.
-      </li>
     </ul>
   </span>
 </Card>
