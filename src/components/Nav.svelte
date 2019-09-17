@@ -72,7 +72,7 @@
     <li>
       <a
         class={segment === 'linkedin' ? 'selected' : ''}
-        href="https://linkedin.com/in/willxu1234"
+        href="https://linkedin.com/in/willxu1"
         target="_blank"
         rel="noopener">
         linkedin
@@ -81,7 +81,7 @@
     <li>
       <a
         class={segment === 'github' ? 'selected' : ''}
-        href="https://github.com/willxu1234"
+        href="https://github.com/willxu1"
         target="_blank"
         rel="noopener">
         github
