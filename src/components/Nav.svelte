@@ -81,7 +81,7 @@
     <li>
       <a
         class={segment === 'github' ? 'selected' : ''}
-        href="https://github.com/willxu1"
+        href="https://github.com/willxu1234"
         target="_blank"
         rel="noopener">
         github
